@@ -1,0 +1,246 @@
+*{margin: 0px;
+padding: 0px;}
+/* navbar css --------------------------------------------------------------------------------------------------*/
+.navbar{    height: 95px;
+    position: relative;}
+
+.navbar::before{content:"";
+background-color:black;
+opacity: .7;
+top:0px;
+left:0px;
+height: 100%;
+width:100%;
+z-index: -1;
+opacity: 0.3;
+position: absolute;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    /* background-color: white; */
+}
+
+.navbar ul{display: flex;
+    text-decoration: none;
+    
+}
+
+.navbar ul li {
+    list-style: none;  
+    flex-direction: column;
+    padding: 16px;
+   
+    
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* HOme section---------------------------------------------------------------------------------- */
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 447px;
+    width: 100%;
+    
+    /* background-color: chocolate; */
+}
+
+.home::before{ content: "";
+background-image: url("../img/bg-2.jpg") ;
+background-size: cover;
+    background-position: center; 
+position: absolute;
+height: 542px;
+width: 100%;
+z-index: -2;
+top:0px;
+left:0px;
+width: 100%;
+background-attachment: fixed;
+
+}
+
+.home p, .home h1{color: aliceblue;}
+.home .btncss:hover{background-color: #fdc2be;}
+
+/* ------------------------------------------------------------------------------------- */
+
+/* services section */
+
+.clients{height: 500px;
+background-color:#fdc2be;}
+
+.services{
+    display: flex;
+    flex-direction: row;
+}
+   
+
+#box{
+    height: 256px;
+    border: 10px solid #bee3dc;
+    padding: 25px;
+    margin: 18px 11px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;}
+
+#box img{
+    display: block;
+    
+    width: 150px;
+    height: 200px;
+}
+#box p{
+    text-align: center;
+}
+.services #box img{ 
+    width: 150px;
+    height: 160px;
+    margin: auto;
+    display: block;
+ }
+ /* ------------------------------------------------------------------------------------------------------ */
+/* client section */
+
+#client-section{
+    background-color: #bee3dc;
+}
+
+
+
+ #clients {margin-top: 45px ;
+     display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.client-item2 img{
+    width: 150px;
+    height: 200px;
+}
+
+.client-item3 img{
+    width: 210px;
+    height: 264px;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* Register section */
+.register{
+    background-color: #fdc2be;
+
+}
+
+.details{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 34px;}
+
+.details input,.details textarea{ width: 100%;
+    padding: .5rem;
+}
+
+.details label{font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+    color: white;}
+    
+.details form input ::placeholder{color: #bee3dc;}
+
+form .submit{display: block;
+margin: auto;
+margin-top: 16px;}
+
+
+/* footer------------------------------------------------------------------------------------------------------- */
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+
+/*------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* utility classes --------------------------------------------------------------------------------------------*/
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.0rem;
+    padding: 8px;
+    color: white;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.3rem;
+    padding: 5px
+}
+
+.btncss{
+    padding: 6px 10px;
+    border: 2px solid white;
+    background-color:#2a8ea561;
+    color: white;
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+}
