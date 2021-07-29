@@ -25,8 +25,17 @@
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 }
 
+
+
+
+.client-item img{margin-bottom: 30px;}
+
+.client-item2 img{margin-bottom: 30px;}
+
+.client-item3 img{margin-bottom: 30px;}
 
 .services #box img {
         width: 98px;
@@ -36,9 +45,11 @@ align-items: center;
     }
    
 /* register section */
-.details input,.details textarea{ width: 80%;
+.details input,.details textarea{ width: 75%;
         padding: .5rem;
     }
+
+.details{margin-left: 30px;}
 
 
 /* navbar */
@@ -46,16 +57,25 @@ align-items: center;
 .navbar ul{display: flex;
     text-decoration: none;
     flex-wrap: wrap;
+    justify-content: center;
+
 
     
 }
+.logo{display: block;
+margin: auto;}
 
-.navbar{    height: 120px;}
+.navbar{flex-direction: column;   
+     height: 220px;}
 
 
 /* home */
 
-.home{height: 422px;}
+.home{height: 322px;}
+
+/* .home ::before{height: 643px;} */
+
+.home p{text-align: center;}
 
 
 

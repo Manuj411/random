@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/project1.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo "  data-aos="fade-right"  >
+            <h1> <span class="square">&nbsp;</span>Randomsite</h1>
+        </div>
+
+        <ul data-aos="fade-left">
+
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+
+        </ul>
+
+
+
+    </nav>
+    <section class="home">
+        <h1 class="h-primary" data-aos="fade-up" >This is home secton in h1 tag</h1>
+        <p class="h-secondary" data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+        <button class="btncss">Sign up</button>
+
+
+
+    </section>
+
+    <section class="clients">
+
+        <h1 class="h-primary center"> Our Services</h1>
+
+        <div class="services" >
+            <div id="box" data-aos="fade-up-left" data-aos-delay = "500">
+                <img src="https://i.pinimg.com/originals/ed/fb/bf/edfbbf577811081d08dbf0a91c83bfb1.png" alt="Naruto">
+                <p class="h-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+
+
+            </div>
+            <div id="box" data-aos="fade-up" data-aos-delay = "500" >
+                <img src="https://www.pngitem.com/pimgs/m/108-1086646_kid-naruto-transparent-hd-png-download.png"
+                    alt="Naruto">
+                <p class="h-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+
+            </div>
+            <div id="box" data-aos="fade-up-right" data-aos-delay = "500">
+                <img src="https://i.pinimg.com/originals/ed/fb/bf/edfbbf577811081d08dbf0a91c83bfb1.png" alt="Naruto">
+                <p class="h-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+
+            </div>
+
+            <!-- <div>
+                <button class="btncss nikl ">Nikl lwade</button>
+                <p class="h-secondary  center" id="nikl-text">Tu Nikl lawde</p>
+    
+            </div>
+            -->
+        </div>
+
+
+    </section>
+
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item" data-aos="zoom-out-right">
+                <img src="img/client-1.png" alt="Our Client">
+            </div>
+            <div class="client-item2"  data-aos="zoom-out-down">
+                <img src="img/client-2N.png" alt="Our Client">
+            </div>
+
+            <div class="client-item3" data-aos="zoom-out-left">
+                <img src="img/client-3.png" alt="Our Client">
+            </div>
+
+        </div>
+
+    </section>
+    <section class="Quote-Generator">
+        <div class="quote-container" id="quote-container">
+            <!-- Quote -->
+            <div class="quote-text">
+                <i class="fas fa-quote-left"></i>
+                <span id="quote"></span>
+            </div>
+            <!-- Author -->
+            <div class="quote-author">
+                <span id="author"></span>
+            </div>
+            <!-- Buttons -->
+            <div class="button-container">
+                <button class="twitter-button" id="twitter" title="Tweet This!">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote">New Quote</button>
+            </div>
+        </div>
+        <!-- Loader -->
+        <div class="loader" id="loader"></div>
+
+
+
+
+    </section>
+    <section class="register">
+        <h1 class="h-primary center">Fill Your Details</h1>
+
+        <div class="details">
+            <form action="">
+                <div>
+                    <label for="name">NAME:</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+
+                <div>
+                    <label for="name">PHONE NO:</label>
+                    <input type="phone" id="phone" placeholder="Enter your phone no.">
+                </div>
+
+                <div>
+                    <label for="name">EMAIL:</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div>
+                    <label for="name">MESSAGE:</label>
+                    <textarea type="MESSAGE" id="message" placeholder="Enter your message" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div class="submit">
+                    <button class="btncss submit">Submit</button>
+                </div>
+
+
+
+            </form>
+        </div>
+
+    </section>
+
+   
+
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myrandomsite.com. All rights reserved!
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 1500, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+           
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+           
+        });
+    </script>
+
+    <script src="js/Quote.js"></script>
+
+
+
+
+    <!-- <script>
+        $(".nikl").click( function(){
+            $(".nikl").hide(3000, function(){
+                $("#nikl-text").show()
+
+            })
+        })
+
+    </script> -->
+</body>
+
+</html>
